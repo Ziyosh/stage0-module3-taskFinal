@@ -6,6 +6,7 @@ public class TemperatureConverter {
         float myTemp = temperatureCelsius;
         float temperatureFahrenheit;
         temperatureFahrenheit = (float)((temperatureCelsius*9)/5)+32;
+
         System.out.println(temperatureFahrenheit);
     }
 
