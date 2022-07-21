@@ -2,7 +2,7 @@ package lang.print.gaps.finalModuleTask;
 
 public class TemperatureConverter {
     public static void toFahrenheit(int temperatureCelsius){
-        temperatureCelsius = 13;
+        temperatureCelsius = 5;
         float myTemp = temperatureCelsius;
         float temperatureFahrenheit;
         temperatureFahrenheit = (float)((temperatureCelsius*9)/5)+32;
@@ -10,6 +10,6 @@ public class TemperatureConverter {
     }
 
     public static void main(String[] args){
-        toFahrenheit((int) 55.4);
+        toFahrenheit((int) 41.0);
     }
 }

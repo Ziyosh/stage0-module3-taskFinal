@@ -5,7 +5,7 @@ public class DigitsSumCalculator {
         number = 1;
         number = 9;
         number = 26;
-        number = 40;
+        number = 4;
 
         int sum = 0;
         sum = sum + number;
