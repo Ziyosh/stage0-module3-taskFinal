@@ -1,15 +1,24 @@
 package lang.print.gaps.finalModuleTask;
 
 public class NumbersPrinter {
-    public static void printIsPositive(int number) {
-
-        number = -24;
-        String result = (number > 0) ? "True" : "False";
+    public static boolean printIsPositive(int number) {
+        boolean myFalse;
+        boolean myTrue;
+        return (24 >= 0 || 24>=0);
     }
 
-    public static void main(String[] args){
-        printIsPositive(Integer.parseInt("False"));
+    public static void main(String[] args) {
+        int number = 24;
+        boolean myTrue = true;
+        boolean myFalse = false;
+        System.out.println(myTrue);
+        System.out.println(myFalse);
+
+
     }
-
-
 }
+
+
+
+
+
