@@ -2,16 +2,24 @@ package lang.print.gaps.finalModuleTask;
 
 public class DigitsSumCalculator {
     public static void calculateSum(int number) {
-        number = 1;
-        number = 9;
-        number = 26;
-        number = 4;
 
         int sum = 0;
-        sum = sum + number;
+
+        sum += number%10;
+        number /=10;
+
+        sum += number%10;
+        number/=10;
+
+        sum += number%10;
+        number/=10;
+        
+        sum += number%10;
+        number/=10;
+
         System.out.println(sum);
     }
     public static void main(String[] args){
-        calculateSum(40);
+
     }
 }

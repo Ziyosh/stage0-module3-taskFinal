@@ -2,21 +2,24 @@ package lang.print.gaps.finalModuleTask;
 
 public class NumberReverter {
     public static void revert(int number) {
-        number = 334;
-        int number1 = 457;
-        number = number + 99;
-        number1 = number1 + 297;
-        System.out.println(number);
+
+        int reversedNum = 0;
+
+        reversedNum += (number%10)*100;// Add the last digit multiplied by 100
+        number /= 10;// Remove the last digit
+
+        reversedNum += (number%10)*10;
+        number /= 10;
+
+        reversedNum += number;
+
+        System.out.println(reversedNum);
+
+
     }
-    public static void reverts(int number1) {
-        int number = 457;
-        number = number + 297;
-        System.out.println(number);
-    }
+
     public static void main(String[] args){
 
-        revert(433);
-        reverts(754);
 
     }
 }

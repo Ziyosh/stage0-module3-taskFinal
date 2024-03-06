@@ -7,6 +7,5 @@ public class PrintingFalse {
         boolean myBoolean = first == second;
         //write code here
         System.out.println(myBoolean);
-
     }
 }
