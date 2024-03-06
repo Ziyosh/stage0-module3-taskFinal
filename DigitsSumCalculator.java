@@ -13,7 +13,7 @@ public class DigitsSumCalculator {
 
         sum += number%10;
         number/=10;
-        
+
         sum += number%10;
         number/=10;
 
